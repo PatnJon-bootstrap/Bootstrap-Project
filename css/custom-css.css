@@ -43,9 +43,9 @@ nav .nav-item {
     position: relative;
     bottom: 6px;
 }
-*{
-    box-sizing: border-box;
-}
+/**{*/
+/*    box-sizing: border-box;*/
+/*}*/
 
 .picture {
     max-height: 80%;
