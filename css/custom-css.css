@@ -2,9 +2,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Anton;
     font-weight: bold;
 }
-hr {
-    border-top: 1px solid red;
-}
 
 .dot {
     height: 120px;
@@ -14,7 +11,7 @@ hr {
     display: inline-flex;
     color: white;
     border: 10px solid white;
-    box-sizing: border-box;
+    margin: 1vw;
 
 }
 #red {
@@ -45,4 +42,7 @@ nav a {
 nav .nav-item {
     position: relative;
     bottom: 6px;
+}
+*{
+    box-sizing: border-box;
 }
