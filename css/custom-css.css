@@ -1,13 +1,48 @@
 h1, h2, h3, h4, h5, h6 {
-    font-family: AntonRegular;
+    font-family: Anton;
+    font-weight: bold;
+}
+hr {
+    border-top: 1px solid red;
 }
 
 .dot {
-    height: 105px;
-    width: 105px;
-    background-color: #E6563B;
+    height: 120px;
+    /*width: 105px;*/
+    max-width: 120px;
     border-radius: 50%;
-    display: inline-block;
-    margin: auto;
+    display: inline-flex;
+    color: white;
+    border: 10px solid white;
+    box-sizing: border-box;
 
+}
+#red {
+    background-color: #E6563B;
+}
+#orange{
+    background-color: #dea03d;
+}
+#green {
+    background-color: #7cb06c;
+}
+#blue {
+    background-color: #00aba9;
+}
+nav a {
+    font-size: .75em;
+    color: black;
+}
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+}
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
 }
