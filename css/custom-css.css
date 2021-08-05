@@ -46,3 +46,22 @@ nav .nav-item {
 *{
     box-sizing: border-box;
 }
+
+.picture {
+    max-height: 80%;
+    width: 100%;
+    border: 10px solid black;
+    border-radius: 3%;
+}
+
+.smalldot {
+    height: 18px;
+    width: 18px;
+    max-width: 18px;
+    border-radius: 50%;
+    display: inline-flex;
+    color: black;
+    background-color: red;
+    /*margin: 1vw;*/
+
+}
