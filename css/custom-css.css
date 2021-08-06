@@ -48,9 +48,9 @@ nav .nav-item {
 /*}*/
 
 .picture {
-    max-height: 80%;
-    width: 100%;
-    border: 10px solid black;
+    /*max-height: 80%;*/
+    /*width: 100%;*/
+    border: 5px solid lightgray;
     border-radius: 3%;
 }
 
@@ -61,7 +61,6 @@ nav .nav-item {
     border-radius: 50%;
     display: inline-flex;
     color: black;
-    background-color: red;
     /*margin: 1vw;*/
 
 }
